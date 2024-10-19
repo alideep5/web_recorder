@@ -6,11 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "nodemon src/index.ts"
+    "dev": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "playwright-core": "file:../playwright/packages/playwright-core"
+  },
   "devDependencies": {
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
