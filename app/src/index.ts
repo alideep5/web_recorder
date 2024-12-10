@@ -16,7 +16,9 @@ declare global {
 
     await page.goto('https://www.facebook.com/');
 
-    // await page.screenshot({ path: 'facebook_screenshot.png', fullPage: true })
+    // await new Promise(resolve => setTimeout(resolve, 5000));
+
+    // await page.screenshot({ path: 'img.png', fullPage: false })
 
     await page.exposeFunction('onHoverElement', (x: any, y: any) => {
         console.log("********** DOOOM **********");
@@ -36,3 +38,6 @@ declare global {
 
 // currentHover = document.elementFromPoint(683,608);
 // currentHover.click()
+
+// window.innerWidth
+// window.innerHeight
