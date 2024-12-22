@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "playwright-core": "file:../playwright/packages/playwright-core"
+    "playwright-core-a": "github:dharwishr/playwright-core-test#playwight-core-prod"
   },
   "devDependencies": {
     "nodemon": "^3.1.7",
